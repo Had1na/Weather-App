@@ -1,0 +1,22 @@
+body {
+  background: #1a1831;
+  font-family: "Exo 2", sans-serif;
+  color: #1a1831;
+}
+
+footer {
+  opacity: 0.5;
+}
+
+a {
+  color: #a21232;
+}
+
+.weather-app {
+  background: #dece9c;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5);
+}
