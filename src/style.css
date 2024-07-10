@@ -7,6 +7,7 @@ body {
 header {
   padding: 0 0 25px;
   border-bottom: 1px solid #1a1831;
+  text-align: center;
 }
 
 footer {
@@ -14,7 +15,7 @@ footer {
   border-top: 1px solid #1a1831;
   text-align: center;
   font-size: 14px;
-  color: rgba(25, 24, 49, 0.5);
+  color: rgba(25, 24, 49, 0.8);
 }
 
 a {
@@ -42,7 +43,7 @@ main {
   background: #dece9c;
   border: none;
   border-radius: 5px;
-  width: 80%;
+  width: 75%;
   padding: 10px;
   font-size: 16px;
 }
@@ -55,6 +56,11 @@ main {
   padding: 10px 25px;
   font-size: 16px;
   margin-left: 5px;
+  transition: all 150ms ease-in-out;
+}
+
+.search-form-button:hover {
+  background: #20615b;
 }
 
 .weather-app-data {
