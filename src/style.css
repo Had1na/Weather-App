@@ -10,6 +10,10 @@ header {
   text-align: center;
 }
 
+main {
+  padding: 35px 0;
+}
+
 footer {
   padding: 25px 0 0 0;
   border-top: 1px solid #1a1831;
@@ -20,10 +24,6 @@ footer {
 
 a {
   color: #20615b;
-}
-
-main {
-  padding: 35px 0;
 }
 
 .weather-app {
@@ -106,4 +106,34 @@ main {
   bottom: 40px;
   font-size: 30px;
   font-weight: 500;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.8;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 46px;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #a21232;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.weather-forecast-temperature {
+  padding: 0 5px;
 }
