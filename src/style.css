@@ -119,11 +119,11 @@ a {
   font-size: 16px;
   line-height: 20px;
   opacity: 0.8;
+  margin-bottom: 5px;
 }
 
 .weather-forecast-icon {
-  width: 50px;
-  height: auto;
+  width: 80px;
   display: block;
   margin: 0 auto;
 }
@@ -133,9 +133,9 @@ a {
   color: #a21232;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .weather-forecast-temperature {
-  padding: 0 5px;
+  padding: 0 10px;
 }
